@@ -1244,9 +1244,9 @@
     "restore": {
       "projectUniqueName": "PNS_실습7",
       "projectName": "PNS_실습7",
-      "projectPath": "C:\\Users\\KSH\\Documents\\UiPath\\PNS_실습7\\.local",
+      "projectPath": "C:\\Users\\KSH\\Documents\\UiPath\\H_RPA\\PNS_실습7\\.local",
       "packagesPath": "C:\\Users\\KSH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KSH\\Documents\\UiPath\\PNS_실습7\\.local"
+      "outputPath": "C:\\Users\\KSH\\Documents\\UiPath\\H_RPA\\PNS_실습7\\.local"
     },
     "frameworks": {
       "net461": {
