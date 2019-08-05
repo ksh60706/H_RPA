@@ -416,13 +416,13 @@
           <av:Size x:Key="ShapeSize">216,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="수정 후" sap:VirtualizedContainerService.HintSize="506,3103" sap2010:WorkflowViewState.IdRef="Sequence_14">
+      <Sequence DisplayName="수정 후" sap:VirtualizedContainerService.HintSize="254,582" sap2010:WorkflowViewState.IdRef="Sequence_14">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="폴더 만들기" sap:VirtualizedContainerService.HintSize="468,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
+        <Sequence DisplayName="폴더 만들기" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Boolean" Name="g_bShoppingList" />
           </Sequence.Variables>
@@ -445,7 +445,7 @@
             </If.Else>
           </If>
         </Sequence>
-        <Sequence DisplayName="메모장 열기" sap:VirtualizedContainerService.HintSize="468,66" sap2010:WorkflowViewState.IdRef="Sequence_17">
+        <Sequence DisplayName="메모장 열기" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_17">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -478,7 +478,7 @@
             </ui:Click.Target>
           </ui:Click>
         </Sequence>
-        <Sequence DisplayName="네이버 접속" sap:VirtualizedContainerService.HintSize="468,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
+        <Sequence DisplayName="네이버 접속" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -503,20 +503,20 @@
             </ui:OpenBrowser.Body>
           </ui:OpenBrowser>
         </Sequence>
-        <Sequence DisplayName="쇼핑검색" sap:VirtualizedContainerService.HintSize="468,2587" sap2010:WorkflowViewState.IdRef="Sequence_19">
+        <Sequence DisplayName="쇼핑검색" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_19">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'iexplore.exe  NAVER'" sap:VirtualizedContainerService.HintSize="430,2495" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="e46139796893cce0c2d2221c7f229727" Selector="&lt;html title='NAVER' /&gt;">
+          <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'iexplore.exe  NAVER'" sap:VirtualizedContainerService.HintSize="500,3108" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="e46139796893cce0c2d2221c7f229727" Selector="&lt;html title='NAVER' /&gt;">
             <ui:BrowserScope.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="368,2349" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="470,2962" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="ui:GenericValue" Name="searchWord" />
                     <Variable x:TypeArguments="ui:GenericValue" Name="productName" />
@@ -527,7 +527,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:Click DelayMS="{x:Null}" sap2010:Annotation.AnnotationText="클릭 전 딜레이 설정" ClickType="CLICK_SINGLE" DelayBefore="2000" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                  <ui:Click DelayMS="{x:Null}" sap2010:Annotation.AnnotationText="클릭 전 딜레이 설정&#xD;&#xA;DelayBefore 설정" ClickType="CLICK_SINGLE" DelayBefore="2000" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="432,148" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -543,21 +543,21 @@
                     </ui:Click.Target>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:Click>
-                  <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="330,92" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="쇼핑할 품목을 작성해주세요." Title="검색어 선정">
+                  <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="432,92" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="쇼핑할 품목을 작성해주세요." Title="검색어 선정">
                     <ui:InputDialog.Result>
                       <OutArgument x:TypeArguments="ui:GenericValue">[searchWord]</OutArgument>
                     </ui:InputDialog.Result>
                   </ui:InputDialog>
-                  <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT'" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="SetValue_11" Text="[searchWord]">
+                  <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT'" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="SetValue_11" Text="[searchWord]">
                     <ui:SetValue.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="11a4298d25351ef5288148e3a2ec4411" Selector="&lt;webctrl name='query' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:SetValue.Target>
                   </ui:SetValue>
-                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  https://shopping.nav...'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_13" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  https://shopping.nav...'" sap:VirtualizedContainerService.HintSize="432,106" sap2010:WorkflowViewState.IdRef="Click_13" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -572,7 +572,7 @@
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="d18166f0ca1c472e8d8367b8973799ff" Selector="&lt;webctrl aaname='네이버 검색' parentid='autocompleteWrapper' tag='A' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:Click.Target>
                   </ui:Click>
-                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A '" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                  <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A '" sap:VirtualizedContainerService.HintSize="432,106" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -587,17 +587,17 @@
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="7b1eb14cf05599963dbe6da754480a6c" Selector="&lt;webctrl aaname='무료배송' parentid='_filter' tag='A' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:Click.Target>
                   </ui:Click>
-                  <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'SPAN'" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="SetValue_12" Text="10000">
+                  <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'SPAN'" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="SetValue_12" Text="10000">
                     <ui:SetValue.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="014bbde8159fa4dbab0b27d704e96135" Selector="&lt;webctrl id='min_p' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:SetValue.Target>
                   </ui:SetValue>
-                  <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT  max_p'" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="SetValue_13" Text="50000">
+                  <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'INPUT  max_p'" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="SetValue_13" Text="50000">
                     <ui:SetValue.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="0d222a294c8029f57fe16af2debd5056" Selector="&lt;webctrl id='max_p' tag='INPUT' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:SetValue.Target>
                   </ui:SetValue>
-                  <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="가격 검색 클릭" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_15" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                  <ui:Click DelayBefore="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="가격 검색 클릭" sap:VirtualizedContainerService.HintSize="432,106" sap2010:WorkflowViewState.IdRef="Click_15" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -612,7 +612,7 @@
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6f520906f5edffc21f025da7a74a6b49" Selector="&lt;webctrl id='_priceApplyButton' tag='A' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:Click.Target>
                   </ui:Click>
-                  <ui:Click DelayBefore="{x:Null}" sap2010:Annotation.AnnotationText="딜레이 처리&#xA;&#xA;WaitForReady 변경" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="정렬 클릭" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_16" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                  <ui:Click DelayBefore="{x:Null}" sap2010:Annotation.AnnotationText="딜레이 처리&#xA;&#xA;WaitForReady 변경" ClickType="CLICK_SINGLE" DelayMS="2000" DisplayName="정렬 클릭" sap:VirtualizedContainerService.HintSize="432,163" sap2010:WorkflowViewState.IdRef="Click_16" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -628,11 +628,11 @@
                     </ui:Click.Target>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:Click>
-                  <ui:GetValue ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="네이버쇼핑 랭킹순에 있는 데이터가 받아질 수 있음 (속도 문제)&#xA;&#xA;WaitForReady 변경" DisplayName="상품명 가져오기" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="GetValue_5">
+                  <ui:GetValue ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="네이버쇼핑 랭킹순에 있는 데이터가 받아질 수 있음 (속도 문제)&#xA;&#xA;WaitForReady 변경" DisplayName="상품명 가져오기" sap:VirtualizedContainerService.HintSize="432,178" sap2010:WorkflowViewState.IdRef="GetValue_5">
                     <ui:GetValue.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c1543c48e20d5bad8038c130b12e6b64" Selector="&lt;html title='* : 네이버쇼핑' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div' parentid='_search_list' tag='DIV' idx='2' /&gt;&lt;webctrl parentid='_search_list' tag='A' /&gt;" WaitForReady="COMPLETE" />
                     </ui:GetValue.Target>
@@ -641,11 +641,11 @@
                     </ui:GetValue.Value>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:GetValue>
-                  <ui:GetValue ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="WaitForReady 변경" DisplayName="가격 가져오기" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="GetValue_6">
+                  <ui:GetValue ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="WaitForReady 변경" DisplayName="가격 가져오기" sap:VirtualizedContainerService.HintSize="432,133" sap2010:WorkflowViewState.IdRef="GetValue_6">
                     <ui:GetValue.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="741e51f2d3d18b8d3e4f9e99d588b3a5" Selector="&lt;html title='* : 네이버쇼핑' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;div&amp;gt;span&amp;gt;em' parentid='_search_list' tag='EM' idx='1' /&gt;&lt;webctrl parentid='_search_list' tag='SPAN' /&gt;" WaitForReady="COMPLETE" />
                     </ui:GetValue.Target>
@@ -654,29 +654,11 @@
                     </ui:GetValue.Value>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:GetValue>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="330,51" sap2010:WorkflowViewState.IdRef="CommentOut_6">
-                    <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="368,151" sap2010:WorkflowViewState.IdRef="Sequence_16">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[productName.ToString]" TopMost="True" />
-                      </Sequence>
-                    </ui:CommentOut.Body>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="330,51" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="432,304" sap2010:WorkflowViewState.IdRef="CommentOut_4">
                     <ui:CommentOut.Body>
                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="368,226" sap2010:WorkflowViewState.IdRef="Sequence_11">
                         <sap:WorkflowViewStateService.ViewState>
@@ -693,12 +675,12 @@
                     </ui:CommentOut.Body>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="330,51" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="432,304" sap2010:WorkflowViewState.IdRef="CommentOut_5">
                     <ui:CommentOut.Body>
                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="368,226" sap2010:WorkflowViewState.IdRef="Sequence_12">
                         <sap:WorkflowViewStateService.ViewState>
@@ -715,17 +697,17 @@
                     </ui:CommentOut.Body>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
-                  <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'editable text  텍스트 편집'" EmptyField="False" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_3" SendWindowMessages="True" SimulateType="False" Text="[&quot;제품명 : &quot; + productName.ToString+ &quot;[k(enter)]&quot;]">
+                  <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'editable text  텍스트 편집'" EmptyField="False" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="TypeInto_3" SendWindowMessages="True" SimulateType="False" Text="[&quot;제품명 : &quot; + productName.ToString+ &quot;[k(enter)]&quot;]">
                     <ui:TypeInto.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c1b338353a6c8e25a86ed6fdd002906c" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='제목 없음 - 메모장' /&gt;&lt;wnd aaname='가로' cls='Edit' /&gt;&lt;ctrl name='텍스트 편집' role='editable text' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:TypeInto.Target>
                   </ui:TypeInto>
-                  <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'editable text  텍스트 편집'" EmptyField="False" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_4" SendWindowMessages="True" SimulateType="False" Text="[&quot;가격 : &quot; + productCost.ToString+ &quot;[k(enter)]&quot;]">
+                  <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'editable text  텍스트 편집'" EmptyField="False" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="TypeInto_4" SendWindowMessages="True" SimulateType="False" Text="[&quot;가격 : &quot; + productCost.ToString+ &quot;[k(enter)]&quot;]">
                     <ui:TypeInto.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="c1b338353a6c8e25a86ed6fdd002906c" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='제목 없음 - 메모장' /&gt;&lt;wnd aaname='가로' cls='Edit' /&gt;&lt;ctrl name='텍스트 편집' role='editable text' /&gt;" WaitForReady="INTERACTIVE" />
                     </ui:TypeInto.Target>
@@ -741,7 +723,7 @@
             </sap:WorkflowViewStateService.ViewState>
           </ui:BrowserScope>
         </Sequence>
-        <Sequence DisplayName="파일 저장" sap:VirtualizedContainerService.HintSize="468,66" sap2010:WorkflowViewState.IdRef="Sequence_20">
+        <Sequence DisplayName="파일 저장" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_20">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Boolean" Name="g_b_saveExist" />
           </Sequence.Variables>

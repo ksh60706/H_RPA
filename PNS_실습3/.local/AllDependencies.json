@@ -1080,9 +1080,9 @@
     "restore": {
       "projectUniqueName": "PNS_실습3",
       "projectName": "PNS_실습3",
-      "projectPath": "C:\\Users\\KSH\\Documents\\UiPath\\PNS_실습3\\.local",
+      "projectPath": "C:\\Users\\KSH\\Documents\\UiPath\\H_RPA\\PNS_실습3\\.local",
       "packagesPath": "C:\\Users\\KSH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KSH\\Documents\\UiPath\\PNS_실습3\\.local"
+      "outputPath": "C:\\Users\\KSH\\Documents\\UiPath\\H_RPA\\PNS_실습3\\.local"
     },
     "frameworks": {
       "net461": {
