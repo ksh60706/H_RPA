@@ -168,8 +168,6 @@
                 <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="506,1912" sap2010:WorkflowViewState.IdRef="Sequence_8">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="ui:GenericValue" Name="searchWord" />
-                    <Variable x:TypeArguments="ui:GenericValue" Name="productName" />
-                    <Variable x:TypeArguments="ui:GenericValue" Name="productCost" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
