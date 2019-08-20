@@ -416,13 +416,13 @@
           <av:Size x:Key="ShapeSize">216,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="수정 후" sap:VirtualizedContainerService.HintSize="254,582" sap2010:WorkflowViewState.IdRef="Sequence_14">
+      <Sequence DisplayName="수정 후" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_14">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="폴더 만들기" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
+        <Sequence DisplayName="폴더 만들기" sap:VirtualizedContainerService.HintSize="538,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Boolean" Name="g_bShoppingList" />
           </Sequence.Variables>
@@ -445,7 +445,7 @@
             </If.Else>
           </If>
         </Sequence>
-        <Sequence DisplayName="메모장 열기" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_17">
+        <Sequence DisplayName="메모장 열기" sap:VirtualizedContainerService.HintSize="538,66" sap2010:WorkflowViewState.IdRef="Sequence_17">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -478,7 +478,7 @@
             </ui:Click.Target>
           </ui:Click>
         </Sequence>
-        <Sequence DisplayName="네이버 접속" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
+        <Sequence DisplayName="네이버 접속" sap:VirtualizedContainerService.HintSize="538,66" sap2010:WorkflowViewState.IdRef="Sequence_18">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -503,10 +503,10 @@
             </ui:OpenBrowser.Body>
           </ui:OpenBrowser>
         </Sequence>
-        <Sequence DisplayName="쇼핑검색" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_19">
+        <Sequence DisplayName="쇼핑검색" sap:VirtualizedContainerService.HintSize="538,3200" sap2010:WorkflowViewState.IdRef="Sequence_19">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -527,7 +527,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:Click DelayMS="{x:Null}" sap2010:Annotation.AnnotationText="클릭 전 딜레이 설정&#xD;&#xA;DelayBefore 설정" ClickType="CLICK_SINGLE" DelayBefore="2000" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="432,148" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
+                  <ui:Click DelayMS="{x:Null}" sap2010:Annotation.AnnotationText="클릭 전 딜레이 설정&#xA;DelayBefore 설정" ClickType="CLICK_SINGLE" DelayBefore="2000" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="432,148" sap2010:WorkflowViewState.IdRef="Click_12" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                     <ui:Click.CursorPosition>
                       <ui:CursorPosition Position="Center">
                         <ui:CursorPosition.OffsetX>
@@ -723,7 +723,7 @@
             </sap:WorkflowViewStateService.ViewState>
           </ui:BrowserScope>
         </Sequence>
-        <Sequence DisplayName="파일 저장" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_20">
+        <Sequence DisplayName="파일 저장" sap:VirtualizedContainerService.HintSize="538,66" sap2010:WorkflowViewState.IdRef="Sequence_20">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:Boolean" Name="g_b_saveExist" />
           </Sequence.Variables>

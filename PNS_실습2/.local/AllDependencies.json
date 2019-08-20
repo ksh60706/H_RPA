@@ -1078,11 +1078,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "PNS_실습1",
-      "projectName": "PNS_실습1",
-      "projectPath": "C:\\Users\\KSH\\Documents\\UiPath\\PNS_실습1\\.local",
+      "projectUniqueName": "PNS_실습2",
+      "projectName": "PNS_실습2",
+      "projectPath": "C:\\Users\\KSH\\Documents\\UiPath\\H_RPA\\PNS_실습2\\.local",
       "packagesPath": "C:\\Users\\KSH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KSH\\Documents\\UiPath\\PNS_실습1\\.local"
+      "outputPath": "C:\\Users\\KSH\\Documents\\UiPath\\H_RPA\\PNS_실습2\\.local"
     },
     "frameworks": {
       "net461": {

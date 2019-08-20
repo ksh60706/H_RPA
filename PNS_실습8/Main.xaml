@@ -130,7 +130,7 @@
             <OutArgument x:TypeArguments="x:String">[g_sExcelPath]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="x:String">["C:\Users\KSH\Documents\UiPath\PNS_실습8\acme_list.xlsx"]</InArgument>
+            <InArgument x:TypeArguments="x:String">["C:\Users\KSH\Documents\UiPath\H_RPA\PNS_실습8\acme_list.xlsx"]</InArgument>
           </Assign.Value>
         </Assign>
         <Assign sap:VirtualizedContainerService.HintSize="480,60" sap2010:WorkflowViewState.IdRef="Assign_6">
@@ -459,7 +459,7 @@
                   <av:PointCollection x:Key="ConnectorLocation">300,425.5 300,475.5</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="데이터 가져오기" sap:VirtualizedContainerService.HintSize="538,1141" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <Sequence DisplayName="데이터 가져오기" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_8">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -890,7 +890,7 @@
                           <av:Size x:Key="ShapeSize">216,66</av:Size>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="업데이트하기" sap:VirtualizedContainerService.HintSize="216,66" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                      <Sequence DisplayName="업데이트하기" sap:VirtualizedContainerService.HintSize="699,5212" sap2010:WorkflowViewState.IdRef="Sequence_29">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="ui:Browser" Name="g_bUpdateListBrow" />
                           <Variable x:TypeArguments="ui:GenericValue" Name="s_pdfFileName" />
@@ -900,7 +900,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="칼럼 추가" sap:VirtualizedContainerService.HintSize="584,238" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                        <Sequence DisplayName="칼럼 추가" sap:VirtualizedContainerService.HintSize="661,238" sap2010:WorkflowViewState.IdRef="Sequence_40">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -911,13 +911,13 @@
                           <ui:AddDataColumn x:TypeArguments="x:String" Column="{x:Null}" DefaultValue="{x:Null}" AllowDBNull="True" AutoIncrement="False" ColumnName="고객명" DataTable="[g_dtSearch]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_2" MaxLength="100" Unique="False" />
                           <ui:AddDataColumn x:TypeArguments="x:String" Column="{x:Null}" DefaultValue="{x:Null}" AllowDBNull="True" AutoIncrement="False" ColumnName="고객주소" DataTable="[g_dtSearch]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="216,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_3" MaxLength="100" Unique="False" />
                         </Sequence>
-                        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[g_dtSearch]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="584,2940" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                        <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[g_dtSearch]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="661,4320" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                           <ui:ForEachRow.Body>
                             <ActivityAction x:TypeArguments="sd:DataRow">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="538,2792" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="615,4172" sap2010:WorkflowViewState.IdRef="Sequence_28">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:String" Name="s_clientName" />
                                   <Variable x:TypeArguments="x:String" Name="s_clientID" />
@@ -928,7 +928,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'iexplore.exe ACME'" sap:VirtualizedContainerService.HintSize="500,51" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="6397124de44e286a7ac932b02aa1f53b" Selector="&lt;html title='ACME System 1 - Work Items' /&gt;">
+                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser 'iexplore.exe ACME'" sap:VirtualizedContainerService.HintSize="577,443" sap2010:WorkflowViewState.IdRef="BrowserScope_3" InformativeScreenshot="6397124de44e286a7ac932b02aa1f53b" Selector="&lt;html title='ACME System 1 - Work Items' /&gt;">
                                   <ui:BrowserScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -961,12 +961,12 @@
                                   </ui:BrowserScope.Body>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:BrowserScope>
-                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" BrowserType="IE" DisplayName="업데이트 내용 팝업창" sap:VirtualizedContainerService.HintSize="500,51" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="8ffa7c72e79445a650de4240f42e5953" Selector="&lt;html htmlwindowname='WI-Update' title='ACME System 1 - Work Items' /&gt;" UiBrowser="[g_bUpdateListBrow]">
+                                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" BrowserType="IE" DisplayName="업데이트 내용 팝업창" sap:VirtualizedContainerService.HintSize="577,51" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="8ffa7c72e79445a650de4240f42e5953" Selector="&lt;html htmlwindowname='WI-Update' title='ACME System 1 - Work Items' /&gt;" UiBrowser="[g_bUpdateListBrow]">
                                   <ui:BrowserScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -1053,14 +1053,14 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:BrowserScope>
-                                <ui:CloseTab Browser="[g_bUpdateListBrow]" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="500,22" sap2010:WorkflowViewState.IdRef="CloseTab_1" />
-                                <ui:BrowserScope SearchScope="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" Browser="[g_bACME]" BrowserType="IE" DisplayName="PDF 다운받기" sap:VirtualizedContainerService.HintSize="500,51" sap2010:WorkflowViewState.IdRef="BrowserScope_5">
+                                <ui:CloseTab Browser="[g_bUpdateListBrow]" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="577,22" sap2010:WorkflowViewState.IdRef="CloseTab_1" />
+                                <ui:BrowserScope SearchScope="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" Browser="[g_bACME]" BrowserType="IE" DisplayName="PDF 다운받기" sap:VirtualizedContainerService.HintSize="577,753" sap2010:WorkflowViewState.IdRef="BrowserScope_5">
                                   <ui:BrowserScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                       </ActivityAction.Argument>
-                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="547,605" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="547,645" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:Boolean" Name="b_downExist" />
                                         </Sequence.Variables>
@@ -1106,12 +1106,12 @@
                                   </ui:BrowserScope.Body>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:BrowserScope>
-                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="PDF 저장" sap:VirtualizedContainerService.HintSize="500,1368" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="78670d0ea923d0ff6ba2b3bddc439f2c" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='https://acme-test.uipath.com/assets/TestData/checks/243/Check-Re*' /&gt;">
+                                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="PDF 저장" sap:VirtualizedContainerService.HintSize="577,1368" sap2010:WorkflowViewState.IdRef="WindowScope_2" InformativeScreenshot="78670d0ea923d0ff6ba2b3bddc439f2c" Selector="&lt;wnd app='iexplore.exe' cls='IEFrame' title='https://acme-test.uipath.com/assets/TestData/checks/*' /&gt;">
                                   <ui:WindowScope.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
@@ -1152,7 +1152,7 @@
                                             <OutArgument x:TypeArguments="ui:GenericValue">[s_pdfFileName]</OutArgument>
                                           </ui:GetValue.Value>
                                         </ui:GetValue>
-                                        <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'Edit'" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="SetValue_2" Text="[&quot;C:\Users\KSH\Documents\UiPath\PNS_실습8\&quot;+s_pdfFileName.ToString]">
+                                        <ui:SetValue ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Set Text 'Edit'" sap:VirtualizedContainerService.HintSize="432,134" sap2010:WorkflowViewState.IdRef="SetValue_2" Text="[&quot;C:\Users\KSH\Documents\UiPath\H_RPA\PNS_실습8\&quot;+s_pdfFileName.ToString]">
                                           <ui:SetValue.Target>
                                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="df95b9459a75949baef4f038e7ffad7a" Selector="&lt;wnd app='acrord32.exe' cls='#32770' title='다른 이름으로 저장' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='파일 이름:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" WaitForReady="INTERACTIVE" />
                                           </ui:SetValue.Target>
@@ -1197,7 +1197,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:WindowScope>
-                                <Sequence DisplayName="PDF 읽기" sap:VirtualizedContainerService.HintSize="500,851" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                                <Sequence DisplayName="PDF 읽기" sap:VirtualizedContainerService.HintSize="577,851" sap2010:WorkflowViewState.IdRef="Sequence_36">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="s_pdfContent" />
                                     <Variable x:TypeArguments="s:String[]" Name="arr_sPDF_content" />
@@ -1211,7 +1211,7 @@
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:ReadPDFText DisplayName="Read PDF Text" FileName="[&quot;C:\Users\KSH\Documents\UiPath\PNS_실습8\&quot;+s_pdfFileName.ToString]" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="All" Text="[s_pdfContent]" />
+                                  <ui:ReadPDFText DisplayName="Read PDF Text" FileName="[&quot;C:\Users\KSH\Documents\UiPath\H_RPA\PNS_실습8\&quot;+s_pdfFileName.ToString]" sap:VirtualizedContainerService.HintSize="330,59" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="All" Text="[s_pdfContent]" />
                                   <Assign sap:VirtualizedContainerService.HintSize="330,60" sap2010:WorkflowViewState.IdRef="Assign_11">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="s:String[]">[arr_sPDF_content]</OutArgument>
@@ -1269,10 +1269,10 @@
                                     </Assign.Value>
                                   </Assign>
                                 </Sequence>
-                                <Sequence DisplayName="데이터테이블에 추가하기" sap:VirtualizedContainerService.HintSize="500,66" sap2010:WorkflowViewState.IdRef="Sequence_42">
+                                <Sequence DisplayName="데이터테이블에 추가하기" sap:VirtualizedContainerService.HintSize="577,352" sap2010:WorkflowViewState.IdRef="Sequence_42">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -1311,7 +1311,7 @@
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:ForEachRow>
-                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="584,482" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" WorkbookPath="[g_sExcelPath]">
+                        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="661,482" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" WorkbookPath="[g_sExcelPath]">
                           <ui:ExcelApplicationScope.Body>
                             <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                               <ActivityAction.Argument>
